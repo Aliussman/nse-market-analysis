@@ -1,15 +1,35 @@
-# NSE Market Analysis using Python
+# 📊 NSE Market Analysis
 
-This project demonstrates **web scraping, data analysis, and data visualization** using Python.
-The goal is to collect and analyze data on companies listed in the **NIFTY 50 index**, one of the major stock market indices in India.
+Web scraping and exploratory data analysis of companies listed in the **NIFTY 50 index** using Python.
 
-The project builds a small **data pipeline** that scrapes company information, processes the dataset, and performs exploratory analysis to understand sector distribution among India's largest publicly listed firms.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Status](https://img.shields.io/badge/Project-Active-success)
 
 ---
 
-## Project Objectives
+## 📌 Project Overview
 
-* Collect company and sector data from the NIFTY 50 index
+This project demonstrates **web scraping, data cleaning, and exploratory data analysis (EDA)** using Python.
+
+The goal is to collect and analyze data on companies listed in the **NIFTY 50 index**, one of the major stock market indices in India.
+
+The project builds a small **data pipeline** that scrapes company information, processes the dataset, and performs analysis to understand **sector distribution among India's largest publicly listed firms**.
+
+---
+
+## 📊 Example Visualization
+
+Sector distribution of companies in the NIFTY 50 index.
+
+![Sector Distribution](visuals/sector_distribution.png)
+
+---
+
+## 🎯 Project Objectives
+
+* Scrape company and sector data from the NIFTY 50 index
 * Clean and structure the data for analysis
 * Perform exploratory data analysis (EDA)
 * Visualize sector composition of the index
@@ -17,7 +37,20 @@ The project builds a small **data pipeline** that scrapes company information, p
 
 ---
 
-## Technologies Used
+## 🧠 Key Skills Demonstrated
+
+* Web scraping with **BeautifulSoup**
+* Data collection using **Requests**
+* Data cleaning and analysis using **Pandas**
+* Numerical computation with **NumPy**
+* Data visualization using **Matplotlib**
+* Exploratory Data Analysis (EDA)
+* Reproducible analysis using **Jupyter Notebook**
+* Version control with **Git and GitHub**
+
+---
+
+## 🛠 Technologies Used
 
 * Python
 * Pandas
@@ -29,9 +62,9 @@ The project builds a small **data pipeline** that scrapes company information, p
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
-```
+```text
 nse-market-analysis
 │
 ├── scraper.py                # Script to scrape NIFTY 50 company data
@@ -52,9 +85,10 @@ nse-market-analysis
 
 ---
 
-## Data Collection
+## 📥 Data Collection
 
-Data is collected by scraping publicly available information on NIFTY 50 companies.
+Data is collected by scraping publicly available information about **NIFTY 50 companies**.
+
 The scraper extracts:
 
 * Company name
@@ -68,11 +102,11 @@ data/nifty50.csv
 
 ---
 
-## Exploratory Data Analysis
+## 📊 Exploratory Data Analysis
 
-The project includes exploratory analysis to understand the **sector composition of the NIFTY 50 index**.
+The project includes analysis to understand the **sector composition of the NIFTY 50 index**.
 
-The analysis includes:
+Analysis includes:
 
 * Sector frequency analysis
 * Bar chart visualization of sector distribution
@@ -80,30 +114,12 @@ The analysis includes:
 
 Example insights:
 
-* Financial services and information technology companies represent a large portion of the index.
+* Financial Services and Information Technology companies represent a large share of the index.
 * Sector concentration reflects the structure of India's large-cap equity market.
 
 ---
 
-## Example Visualizations
-
-### Sector Distribution
-
-Bar chart showing the number of companies in each sector.
-
-### Sector Composition
-
-Pie chart illustrating the percentage distribution of sectors within the index.
-
-Visualizations are stored in:
-
-```
-visuals/
-```
-
----
-
-## Running the Project
+## ▶️ Running the Project
 
 Clone the repository:
 
@@ -138,19 +154,18 @@ jupyter notebook
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
-* Collect additional financial metrics for each company
-* Perform stock price trend analysis
-* Apply clustering or statistical methods to identify sector patterns
-* Expand the dataset beyond the NIFTY 50 index
+* Scrape additional financial metrics for each company
+* Analyze stock price trends
+* Perform statistical analysis on sector performance
+* Expand analysis beyond the NIFTY 50 index
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-Ali Usman
+**Ali Usman**
 Undergraduate Student – Plaksha University
 
 This project was developed as part of my exploration of **data science, economics, and financial data analysis**.
-
